@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Notes from Yuan Zong</title>
+  <link rel="stylesheet" type="text/css" href="note.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div class="TOC">
+    <ul>
+      <li class="TOC_itemLayer1">
+        <a href="#content_web">
+          <span class="toc_number">1</span>
+          <span class="toc_text">Web</span>
+        </a>
+        <ul>
+          <li class="TOC_itemLayer2">
+            <a href="#content_webComponent">
+              <span class="toc_number">1.1</span>
+              <span class="toc_text">The Component of Web</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="TOC_itemLayer1">
+        <a href="#content_aboutProgramming">
+          <span class="toc_number">2</span>
+          <span class="toc_text">About Programming</span>
+
+        </a>
+        <ul>
+          <li class="TOC_itemLayer2">
+            <a href="#content_avoidRepetition">
+              <span class="toc_number">2.1</span>
+              <span class="toc_text">Avoiding Repetition</span>
+            </a>
+          </li>
+          <li class="TOC_itemLayer2">
+            <a href="#content_ComputerProgram">
+              <span class="toc_number">2.2</span>
+              <span class="toc_text">Computer Program</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="TOC_itemLayer1">
+        <a href="#content_HTML">
+          <span class="toc_number">3</span>
+          <span class="toc_text">HTML</span>
+        </a>
+        <ul>
+          <li class="TOC_itemLayer2">
+            <a href="#content_conceptsInHTML">
+              <span class="toc_number">3.1</span>
+              <span class="toc_text">Concepts in HTML</span>
+            </a>
+            <ul>
+              <li class="TOC_itemLayer3">
+                <a href="#content_tagHTML">
+                  <span class="toc_number">3.1.1</span>
+                  <span class="toc_text">Tag</span>
+                </a>
+              </li>
+              <li class="TOC_itemLayer3">
+                <a href="#content_elementHTML">
+                  <span class="toc_number">3.1.2</span>
+                  <span class="toc_text">Element</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li class="TOC_itemLayer1">
+        <a href="#content_CSS">
+          <span class="toc_number">4</span>
+          <span class="toc_text">CSS</span>
+        </a>
+
+      </li>
+      <li class="TOC_itemLayer1">
+        <a href="#content_buildPage">
+          <span class="toc_number">5</span>
+          <span class="toc_text">Build A Web Page</span>
+        </a>
+        <ul>
+          <li class="TOC_itemLayer2">
+            <a href="#content_structuralDesign">
+              <span class="toc_number">5.1</span>
+              <span class="toc_text">Structural Design</span>
+            </a>
+          </li>
+          <li class="TOC_itemLayer2">
+            <a href="#content_styleDesign">
+              <span class="toc_number">5.2</span>
+              <span class="toc_text">Style Design</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="TOC_itemLayer1">
+        <a href="#content_Python">
+          <span class="toc_number">6</span>
+          <span class="toc_text">Python</span>
+        </a>
+        <ul>
+          <li class="TOC_itemLayer2">
+            <a href="#content_Grammar">
+              <span class="toc_number">6.1</span>
+              <span class="toc_text">Grammar</span>
+            </a>
+          </li>
+          <li class="TOC_itemLayer2">
+            <a href="#content_Variable">
+              <span class="toc_number">6.2</span>
+              <span class="toc_text">Variable</span>
+            </a>
+          </li>
+          <li class="TOC_itemLayer2">
+            <a href="#content_Operator">
+              <span class="toc_number">6.3</span>
+              <span class="toc_text">Operator</span>
+            </a>
+          </li>
+          <li class="TOC_itemLayer2">
+            <a href="#content_DecisionAndLoop">
+              <span class="toc_number">6.4</span>
+              <span class="toc_text">Decision And Loop</span>
+            </a>
+          </li>
+          <li class="TOC_itemLayer2">
+            <a href="#content_Function">
+              <span class="toc_number">6.5</span>
+              <span class="toc_text">Function</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+
+  <div class="content">
+
+    <div class="chapter_layer_1">
+      <h1 id="content_web">Web</h1>
+      <p>
+        Web is like a lot of connected computers which play different roles.
+      </p>
+      <div class="chapter_layer_2">
+
+        <h2 id="content_webComponent">The Component of Web</h2>
+        <p>
+          The <b>web</b> consists of Internet and Server. And <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48329854/m-48480496">here</a> is an explanation of its structure and how it works.
+        </p>
+
+        <p>
+          The <b>internet</b> is like the middle-man who take the requests of the user (normally the users are ordinary people like me, and the requests are like visiting a web page) and find the right server who can process the request and send the request to the server, then take the response from the server and give it back to user. The communication (including the request and response) between them follows <b>HTTP</b>, which stands for <em>Hypertext Transfer Protocol</em> and which is a standard for the communication on web.
+        </p>
+      </div>
+    </div>
+
+    <div class="chapter_layer_1">
+      <h1 id="content_aboutProgramming">About Programming</h1>
+      <p>
+        Computers are both stupid and smart. They can do calculation with great efficiency. However, that is the only thing they know how to do (That's why we call them computer). So we must talk to computers in a way that they could understand, which means, in <em>programming language</em>, the order given in which could be turned into a serie of purely computing tasks. And we shall also eliminate even the slightest mistake because computers will follow our order in any case, even when the order is catastrophic.
+      </p>
+
+      <div class="chapter_layer_2">
+        <h2 id="content_avoidRepetition">Avoid Repetition</h2>
+        <p>
+          When we write code, we should try our best to avoid repetition. It is far better to pack a segment of code into a method/function than copy and paste the same code everywhere you need it, even though the latter could improve the efficiency of execution of the code considering that there will be less methods/functions in the stacks of the compiler, because our code is more than something for the computer to run, it is also for people (including the code him/herself) to read, understand, maintain and improve. For example, if you find a mistake in a piece of code in a method/function, you only need to correct it inside that function, but if you do not pack it into a method/function, then you must correct it everywhere the segment of code is repeated (which means you may need to do the same correction manually thousands of times).
+        </p>
+      </div>
+
+      <div class="chapter_layer_2">
+        <h2 id="content_ComputerProgram">Computer Program</h2>
+        <p>
+          A computer program is a segment/segments of code which consist(s) of a sequence of command which a computer could understand and execute. That is the way people order the computer to do stuff. Basically, a computer without program can hardly do anything except consuming energy.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="chapter_layer_1">
+      <h1 id="content_HTML">HTML</h1>
+      <p>
+        <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48724340"><b>HTML</b></a> is the abbreviation of <em>HyperText Markup Language</em>. It's like a glue to bind everything like text, videos and images together and arrange them in a specific order. In fact, when you open a web page, what you get is some HTML code, which will then be translated by your browser to something that is displayed on the screen.So the HTML code is the orders given by the server to your browser of what to be displayed and the way to display them.
+      </p>
+      <p>
+        The structure of a HTML file is like <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48748025">this</a>.
+      </p>
+
+      <div class="chapter_layer_2">
+
+        <h2 id="content_conceptsInHTML">Concepts in HTML</h2>
+        <h3 id="content_tagHTML">Tag</h3>
+        <p>
+          <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48723444">Tags</a> are used to describe how should the content be displayed. There are also tags which has no corresponding contents. These tags are called <em>void tag</em>
+        </p>
+        <h3 id="content_elementHTML">Element</h3>
+        <p>
+          Elements are components of HTML file, for example, a tag as a whole could be called an element. There are <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48723438">inline elements and block elements</a>. Block elements is like an invisible box which contains the content inside it.
+        </p>
+      </div>
+    </div>
+
+    <div class="chapter_layer_1">
+      <h1 id="content_CSS">CSS</h1>
+      <p>
+        <a href="https://www.udacity.com/course/viewer#!/c-ud721-nd/l-3575138706/m-2771378568"><b>CSS</b></a> is the abbreviation of <em>Cascading Style Sheets</em>. It's used to describe how should the elements in HTML file be displayed by the browser.
+      </p>
+
+    </div>
+
+    <div class="chapter_layer_1">
+      <h1 id="content_buildPage">Build A Web Page</h1>
+      <p>
+
+        To build a web page, one should consider <b>what to write</b> and <b>how should be displayed on screen</b>
+      </p>
+      <div class="chapter_layer_2">
+        <h2 id="content_structuralDesign">Structural Design</h2>
+        <p>
+          Thanks to the <b><em>div</em></b> tag in HTML, we can divide a page into different blocks and layers and assign different properities to them, which facilitate a lot our design. Web page designed in this way forms a <a href="https://www.udacity.com/course/viewer#!/c-ud721-nd/l-3555039510/e-2771378561/m-2771378562">tree-like structure</a>. Tree-like structure means that you can have boxes inside boxes inside boxes etc., you can have many boxes inside one box, but it is impossible to get a box which is inside two or more boxes at the same time. Likewise, you can get branches from branches from branches etc., but every branch can only come from one corresponding mother branch.
+        </p>
+
+        <h2 id="content_styleDesign">Style Design</h2>
+        <p>
+          One can see the appearance of a web page as a bunch of invisible and/or visible boxes, which serve as the container for elements. Each box corresponds to an <a href="#content_elementHTML">element</a>. <a href="https://www.udacity.com/course/viewer#!/c-ud721-nd/l-3555039510/m-2771378567">We use boxes as container because we can easily fill the screen with boxes, and boxes allows us to make adjustment without too much effort</a>, that's why we have bricks of the shape of cuboid instead of cylinder or cone. Since a box has different layer of "package", one can assign different properties to these layers to make the web page look fancy. These boxes could be classified into different groups by giving different class names.
+        </p>
+        <p>
+          We could directly write the part of code for style inside the HTML file, however, <a href="#content_avoidRepetition">to avoid repetition and increase reusability</a>, it is better to write it in a separate CSS file and refer to it in the HTML file.
+        </p>
+      </div>
+    </div>
+    <div class="chapter_layer_1">
+      <h1 id="content_Python">Python</h1>
+      <p>
+        Python is a programming language. Unlike HTML and CSS which can only be used for the description of web pages, Python could serve a variety of purposes, for instance, automatically generate HTML code.
+      </p>
+      <div class="chapter_layer_2">
+        <h2 id="content_Grammar">Grammar</h2>
+        <p>
+          Every programming language has its own grammar. Here, the grammar means the way to express our command which could enable the computer to understand it.
+        </p>
+        <p>
+          One crucial part of grammar is its structure of expression. <a href="https://www.udacity.com/course/viewer#!/c-ud552-nd/l-3527838955/e-48704311/m-48736065">This video</a> provide a good explanation of the rule for constructing a valid expression.
+        </p>
+      </div>
+      <div class="chapter_layer_2">
+        <h2 id="content_Variable">Variable</h2>
+        <p>
+          We can give names to values to let them become a variable. By allowing us to store and modify the value, variable enable us to complete more complicated tasks. More over, we can simply give variables meaningful names to increase the readability of our code. To define a variable and assign it to a value, we can write code like <br><div class="code-segment">a=3</div> <br>in Python, which means we create a variable a and let its value to be 3 and the operator <span class="code">=</span> here means "takes the value of".
+        </p>
+      </div>
+      <div class="chapter_layer_2">
+        <h2 id="content_Operator">Operator</h2>
+        <p>
+          There are many operators in Python, such as arithmetic operators <span class="code">+</span>, <span class="code">-</span>, <span class="code">*</span> and <span class="code">/</span>. One important point is that one operators could have different meanings in different context, for example, when <span class="code">+</span> appears between two numbers, it means plus, and when it appears between two Strings, it means concatenation.
+        </p>
+      </div>
+      <div class="chapter_layer_2">
+        <h2 id="content_DecisionAndLoop">Decision And Loop</h2>
+        <p>
+          We can put a segment of code into a <span class="code">if</span> branch in order to make a decision which part of code should be executed. We can also put something into a loop to repeat doing the same stuff. The following videos explain how to construct a <a href="https://www.udacity.com/course/viewer#!/c-ud552-nd/l-3555769686/e-48734356/m-48692680"><span class="code">if</span> branch</a> and a <a href="https://www.udacity.com/course/viewer#!/c-ud552-nd/l-3555769686/e-48686708/m-48480488"><span class="code">while</span> loop</a>.
+        </p>
+        <p>
+          We can also use a <a href="https://www.udacity.com/course/viewer#!/c-ud552-nd/l-3531748835/m-48204891"><span class="code">for</span> loop</a> to iterate the elements in a list and do something to them.
+        </p>
+        <p>
+          We can build code to realize a complex task by using these structure. 
+        </p>
+        
+      </div>
+      <div class="chapter_layer_2">
+        <h2 id="content_Function">Function</h2>
+        <p>
+          A function is like a segment of code which could be called by its name. By defining and calling function, we can significantly <a href="#content_avoidRepetition">avoid repetition</a> and increase the readability of our code.
+        </p>
+
+        <p>
+          A function can take input and give output. A function ends and sends the output to where it is called when it meet the keyword <span class="code">return</span>.
+        </p>
+
+        <p>
+          Here is an example of defining and calling a function:<br>
+
+          defining a function:<br>
+          <div class="code-segment">
+            def calculateSum(input1, input2): <br>
+            <span class="indent">output=input1+input2</span><br>
+            <span class="indent">return output</span>
+          </div>
+        </p>
+
+
+        <p>
+          calling a function:
+          <div class="code-segment">
+            print calculateSum(1,2) <br>
+          </div>
+          <br>It should print 3.
+        </p>
+
+
+        <p>
+          If a function does not have output, it is not necessarily a useless function, because the modification it made may still be there after it finishes. For example, the modification on an array passed in will not be canceled after the function finishes.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
